@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "title": "Cien años de soledad",
+        "author": "Gabriel García Márquez",
+        "genre": "Realismo mágico",
+        "year": 1967,
+        "pages": 471,
+        "stock": 15
+    },
+    {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Ciencia ficción",
+        "year": 1949,
+        "pages": 328,
+        "stock": 23
+    },
+    {
+        "id": 3,
+        "title": "El Señor de los Anillos: La Comunidad del Anillo",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasía",
+        "year": 1954,
+        "pages": 576,
+        "stock": 5
+    },
+    {
+        "id": 4,
+        "title": "Orgullo y prejuicio",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "year": 1813,
+        "pages": 432,
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "title": "Don Quijote de la Mancha",
+        "author": "Miguel de Cervantes",
+        "genre": "Clásico",
+        "year": 1605,
+        "pages": 1345,
+        "stock": 8
+    },
+    {
+        "id": 6,
+        "title": "Harry Potter y la piedra filosofal",
+        "author": "J.K. Rowling",
+        "genre": "Fantasía",
+        "year": 1997,
+        "pages": 309,
+        "stock": 40
+    },
+    {
+        "id": 7,
+        "title": "Matar a un ruiseñor",
+        "author": "Harper Lee",
+        "genre": "Ficción histórica",
+        "year": 1960,
+        "pages": 281,
+        "stock": 12
+    },
+    {
+        "id": 8,
+        "title": "El Principito",
+        "author": "Antoine de Saint-Exupéry",
+        "genre": "Fábula",
+        "year": 1943,
+        "pages": 96,
+        "stock": 50
+    },
+    {
+        "id": 9,
+        "title": "Crimen y castigo",
+        "author": "Fiódor Dostoyevski",
+        "genre": "Psicológico",
+        "year": 1866,
+        "pages": 671,
+        "stock": 7
+    },
+    {
+        "id": 10,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "genre": "Ciencia ficción",
+        "year": 1953,
+        "pages": 256,
+        "stock": 18
+    },
+    {
+        "id": 11,
+        "title": "Crónica de una muerte anunciada",
+        "author": "Gabriel García Márquez",
+        "genre": "Realismo mágico",
+        "year": 1981,
+        "pages": 150,
+        "stock": 25
+    },
+    {
+        "id": 12,
+        "title": "El gran Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Tragedia",
+        "year": 1925,
+        "pages": 180,
+        "stock": 14
+    },
+    {
+        "id": 13,
+        "title": "La sombra del viento",
+        "author": "Carlos Ruiz Zafón",
+        "genre": "Misterio",
+        "year": 2001,
+        "pages": 576,
+        "stock": 20
+    },
+    {
+        "id": 14,
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "genre": "Ciencia ficción",
+        "year": 1965,
+        "pages": 896,
+        "stock": 9
+    },
+    {
+        "id": 15,
+        "title": "La Odisea",
+        "author": "Homero",
+        "genre": "Épico",
+        "year": -800,
+        "pages": 448,
+        "stock": 6
+    },
+    {
+        "id": 16,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "genre": "Terror",
+        "year": 1818,
+        "pages": 280,
+        "stock": 11
+    },
+    {
+        "id": 17,
+        "title": "Sapiens: De animales a dioses",
+        "author": "Yuval Noah Harari",
+        "genre": "No ficción",
+        "year": 2011,
+        "pages": 443,
+        "stock": 30
+    },
+    {
+        "id": 18,
+        "title": "Rayuela",
+        "author": "Julio Cortázar",
+        "genre": "Novela experimental",
+        "year": 1963,
+        "pages": 600,
+        "stock": 16
+    },
+    {
+        "id": 19,
+        "title": "El Alquimista",
+        "author": "Paulo Coelho",
+        "genre": "Aventura",
+        "year": 1988,
+        "pages": 192,
+        "stock": 35
+    },
+    {
+        "id": 20,
+        "title": "Drácula",
+        "author": "Bram Stoker",
+        "genre": "Terror",
+        "year": 1897,
+        "pages": 418,
+        "stock": 13
+    }
+]
