@@ -30,6 +30,7 @@ export const validateBookBody = (req: Request, res: Response, next: NextFunction
         return;
     }
 
+    //continuar
     next();
 };
 
@@ -73,5 +74,6 @@ export const validateBookUpdate = (req: Request, res: Response, next: NextFuncti
         return;
     }
 
+    // continuar
     next();
 };

@@ -1,7 +1,7 @@
 Carrera Back End con NodeJs - 202504
 Profesora: Sachetti Sofia
 
-# Actividades Clase Numero 15
+# Actividad Clase Numero 15: TP INTEGRADOR
 
 ¡Bienvenidas, chicas! 👩‍💻✨
 

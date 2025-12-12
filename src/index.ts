@@ -1,16 +1,19 @@
-import express, {Request, Response, NextFunction} from 'express';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import router from './routes/book-routes';
+import express, {Request, Response, NextFunction} from 'express'; // importar los tipos explicitos de express
+import cors from 'cors'; // importar cors para peticiones cruzadas
+import dotenv from 'dotenv'; // importar dotenv para usar .env
+// importar routers necesarios 
+import bookRouter from './routes/book-routes';
+import authRouter from './routes/auth-routes'; 
+// importar middlewares
 import { verifyToken } from './middlewares/authentication';
 import { errorMiddleware } from './middlewares/error';
 
 dotenv.config(); //carga las variables del .env
 
-const app = express();
+const app = express(); // instancia de express
 
 // formateo de express para respuestas
-app.use(express.json());
+app.use(express.json()); // siempre va primero
 
 app.use(cors());
 
@@ -25,14 +28,19 @@ app.get('/', (req: Request, res: Response) => {
     res.json({ message: "API de gestión de Libros 📓" });
 });
 
-// ruta general de la applicacion con validacion
-app.use('/books', verifyToken, router)
+// Ruta Pública -> Login no necesita token para entrar
+app.use('/auth', authRouter);
+
+// Rutas protegidas
+// Requiere verificación
+app.use('/books', verifyToken, bookRouter)
 
 // respuesta para rutas no encontradas
 app.use((req:Request, res: Response) => {
     res.status(404).json({Error: "Endpoint no encontrada."})
 })
 
+// middleware generar para errores
 app.use(errorMiddleware)
 
 // definicion de puerto

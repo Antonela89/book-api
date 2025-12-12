@@ -13,8 +13,12 @@
     "lib": [
       "esnext"
     ],
-    "types": [
-      "node"
+    // "types": [
+    //   "node"
+    // ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
     ],
     // and npm install -D @types/node
     // Other Outputs
